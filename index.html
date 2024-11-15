@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Random Programs</h2>
+
+   
+        <div class="card">
+            <button onclick="hatTail()">Hat-Tail</button>
+            <div id="hatTailResult" class="result"></div>
+        </div>
+
+
+        <div class="card">
+            <button onclick="diceRoll()">Dice Roll</button>
+            <div id="diceResult" class="result"></div>
+        </div>
+
+        <div class="card">
+            <button onclick="generatePassword()">Generate Random Password</button>
+            <div id="passwordResult" class="result"></div>
+        </div>
+
+       
+        <div class="card">
+            <input type="text" id="weightInput" placeholder="Enter weight (kg)">
+            <button onclick="showWeight()">Submit Weight</button>
+            <div id="weightResult" class="result"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
